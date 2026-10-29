@@ -2,6 +2,12 @@
 
 Un jeu de cherche-et-trouve éducatif à explorer sur mobile et ordinateur.
 
+## Nouvelle préversion V0.4 — les vies cachées
+
+**[Jouer à Rome V0.4](https://estebancaballeroai.github.io/mille-mondes/preview/rome-v04/)** (GitHub Pages doit être activé sur `main` / racine).
+
+Trois quartiers avec images originales (forum, port, marché), 24 éléments (personnages, animaux, objets et monuments), cinq difficultés, et deux modes : **Observer sans toucher l'image** ou **Toucher pour valider**. Déplacement, zoom, indices et progression locale. La version stable V0.1 à la racine du site reste inchangée.
+
 ## Jouer et tester
 
 - **Version stable V0.1 :** [ouvrir la page](./index.html)
