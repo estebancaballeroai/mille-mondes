@@ -1,19 +1,36 @@
 # MILLE MONDES — Les secrets cachés
 
-Jeu éducatif de cherche-et-trouve historique sur mobile.
+Un jeu de cherche-et-trouve éducatif à explorer sur mobile et ordinateur.
 
-## Prototype Rome antique (V0.1)
+## Jouer et tester
 
-- Exploration d'une illustration isométrique
-- Parcours enfants (primaire) et adultes
-- Recherche d'objets par toucher, zoom et déplacement
-- Indices et découvertes historiques
-- Sauvegarde locale
+- **Version stable V0.1 :** [ouvrir la page](./index.html)
+- **Préversion Rome V0.3 :** [ouvrir la page](./preview/rome-v03/index.html) — tests navigateur réussis, à tester sur tablette réelle
+- **Code de développement V0.3 :** branche `experimental/rome-v0.3`
+- **Pull request de validation :** [#2](https://github.com/estebancaballeroai/mille-mondes/pull/2)
 
-Le dépôt est initialisé sur la branche `main`. Le prototype complet sera ajouté séparément avec ses ressources graphiques.
+Si GitHub Pages est configuré sur la branche `main` et le dossier racine, ouvrir :
 
-## Création des scénarios
+- V0.1 : https://estebancaballeroai.github.io/mille-mondes/
+- Préversion V0.3 : https://estebancaballeroai.github.io/mille-mondes/preview/rome-v03/
 
-Chaque scène suit une chaîne de production : recherche et vérification historiques, inventaire des objets à trouver, conception artistique isométrique, production d'images haute résolution, placement et validation des zones tactiles, intégration mobile, tests d'observation et d'accessibilité, puis validation pédagogique.
+Pour activer Pages : `Settings > Pages > Build and deployment > Deploy from a branch > main / (root)`. Les liens publics ne sont accessibles qu'une fois le déploiement terminé.
 
-Licence des illustrations : création originale pour ce projet. Aucun usage commercial d'images externes sans droits vérifiés.
+## Parcours de Rome (V0.3)
+
+- Enfants de 6 à 7 ans
+- Enfants de 8 à 10 ans
+- Adultes : normal, difficile et expert
+
+Six objets à découvrir, zoom et déplacement tactile, indices, anecdotes historiques et sauvegarde locale indépendante par niveau.
+
+L'image actuelle est une composition artistique inspirée de Rome vers 117 apr. J.-C., sans fidélité topographique. Elle est agrandie en 4K depuis un original moins détaillé : le véritable zoom haute définition par tuiles reste au programme.
+
+## Qualité et documentation
+
+- [Méthode de création des scènes](./docs/METHODOLOGIE_SCENARIOS.md)
+- [Compte rendu de validation V0.3](./docs/QA_ROME_V03.md) (branche expérimentale)
+- Tests Chromium desktop/mobile via `tests/smoke.mjs` et GitHub Actions (branche expérimentale)
+- Branches de développement, conservation des anciennes versions et validation avant fusion
+
+**Priorités futures :** tests réels sur tablette Android ancienne, véritables détails haute résolution, scène pédagogique plus riche, puis autres univers historiques.
